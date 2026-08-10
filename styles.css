@@ -142,7 +142,7 @@ width: 100%;
 
 
 .about-me__info--title {
-  margin-bottom: 16px
+  margin-bottom: 16px;
 }
 .about-me__info--para {
   font-size: 20px;
@@ -200,6 +200,11 @@ width: 100%;
 }
 
 .language__name {
-  position: absolute
-  
+  position: absolute;
+  bottom: 0;
+  transform: scale(0);
+}
+
+.language:hover .language__name {
+  transform: scale(1);
 }
