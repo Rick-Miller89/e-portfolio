@@ -139,6 +139,7 @@ nav {
 width: 100%;
 
    /* Improving my own picture */ 
+   
    transform: scale(1.5);
    padding-top: 8px;
 }
@@ -148,6 +149,7 @@ width: 100%;
 .about-me__info--title {
   margin-bottom: 16px;
 }
+
 .about-me__info--para {
   font-size: 20px;
   margin-bottom: 28px;
@@ -235,6 +237,7 @@ width: 100%;
 
 .project__img {
   width: 100%;
+  transition: all 500ms ease;
 }
 
 .project__wrapper {
@@ -242,6 +245,7 @@ width: 100%;
   box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
   border-radius: 20px;
   overflow: hidden;
+  position: relative;
 }
 
 .project__wrapper::before {
@@ -251,6 +255,25 @@ width: 100%;
   left:0;
   height: 100%;
   width: 100%;
+<<<<<<< HEAD
   background-color: #1c1d25;
 >>>>>>> c54d4f1 (first commit)
+=======
+  background-color: #242424;
+  opacity: 0;
+  transiton: opacity 450ms ease;
+  z-index: 2;
+}
+.project:hover .project__wrapper:before {
+  opacity: 0.7;
+}
+
+.project:hover .project__img {
+  transform: scale(1.07);
+  filter: blur(5px);
+}
+
+.project__list {
+  padding-top: 40px;
+>>>>>>> a179622 (Save changes: fix HTML/CSS and assets)
 }
