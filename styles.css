@@ -261,7 +261,7 @@ width: 100%;
 =======
   background-color: #242424;
   opacity: 0;
-  transiton: opacity 450ms ease;
+  transition-property: opacity 450ms ease;
   z-index: 2;
 }
 .project:hover .project__wrapper:before {
