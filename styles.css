@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-  color: red;
-  font-family: "Lato", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  color: #242424;
+  font-family: "Lato", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,span {
@@ -171,7 +175,11 @@ width: 100%;
 .language__img {
   width: 100px;
   max-width: 100px;
+<<<<<<< HEAD
   transition: all 300ms ease-in;
+=======
+  transition: all 300ms;
+>>>>>>> c54d4f1 (first commit)
 }
 
 .language:hover .language__img {
@@ -196,6 +204,10 @@ width: 100%;
 
 .language__list {
   display: flex;
+<<<<<<< HEAD
+=======
+  justify-content: center;
+>>>>>>> c54d4f1 (first commit)
   width: 100%;
   flex-wrap: wrap;
 }
@@ -206,9 +218,39 @@ width: 100%;
   transform: scale(0);
   transition: all 300ms;
   font-size: 20px;
+<<<<<<< HEAD
+=======
+  opacity: 0;
+>>>>>>> c54d4f1 (first commit)
 }
 
 .language:hover .language__name {
   transform: scale(1);
   opacity: 1;
+<<<<<<< HEAD
+=======
+}
+
+/* PROJECTS */
+
+.project__img {
+  width: 100%;
+}
+
+.project__wrapper {
+  display: flex;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.project__wrapper::before {
+  content: "";
+  position:absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  background-color: #1c1d25;
+>>>>>>> c54d4f1 (first commit)
 }
