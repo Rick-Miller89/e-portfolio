@@ -264,11 +264,11 @@ width: 100%;
   position: absolute;
   top: 50%;
   left: 90px;
-  transform: translate(-50%, -50%);
+  transform: translateY(100%);
   max-width: 550px;
   z-index: 3;
   opacity: 0;
-  transition: all 300ms ease;
+  transition: transform 450ms, opacity 300ms;
 }
 
 .project__description--title {
