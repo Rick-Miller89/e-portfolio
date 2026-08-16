@@ -218,6 +218,15 @@ width: 100%;
 
 /* PROJECTS */
 
+.project {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.project: last-child {
+  margin-bottom: 40px;
+}
+
 .project__img {
   width: 100%;
   transition: all 500ms ease;
@@ -240,7 +249,7 @@ width: 100%;
   width: 100%;
   background-color: #1c1d25;
   opacity: 0;
-  transition-property: opacity 450ms ease;
+  transition: opacity 450ms ease;
   z-index: 2;
 }
 .project:hover .project__wrapper:before {
@@ -254,6 +263,7 @@ width: 100%;
 
 .project:hover .project__description {
   opacity: 1;
+  transform: translateY(-50%) translateX(0);
 }
 
 .project__list {
@@ -293,4 +303,17 @@ width: 100%;
   color: white;
 }
 
- 
+ /* FOOTER */
+
+ footer {
+  background-color: #242424;
+ }
+
+ .footer__logo-img {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center
+  border-radius: 50px;
+ }
+
