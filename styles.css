@@ -223,7 +223,7 @@ width: 100%;
   position: relative;
 }
 
-.project: last-child {
+.project last-child {
   margin-bottom: 40px;
 }
 
@@ -314,6 +314,5 @@ width: 100%;
   height: auto;
   margin: 0 auto;
   justify-content: center
-  border-radius: 50px;
  }
 
